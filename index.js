@@ -13,5 +13,5 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
     obj.prop = 1;
     obj.prop1 = 2;
     return object;
-    
+
 }
