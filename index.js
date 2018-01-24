@@ -9,9 +9,9 @@ object.prop2 = 2;
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-    var obj = { prop: 1 };
-    obj.prop = 1;
-    obj.prop1 = 2;
+    var object = { prop: 1 };
+    object.prop = 1;
+    object.prop1 = 2;
     return object;
 
 }
